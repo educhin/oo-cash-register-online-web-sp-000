@@ -22,4 +22,8 @@ class CashRegister
       "After the discount, the total comes to $#{self.total.ceil}."
     end
   end
+
+  def items
+
+  end
 end
