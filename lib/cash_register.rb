@@ -3,10 +3,11 @@ class CashRegister
 
   def initialize(total = 0)
     @total = total
+
+    def discount(employee_discount = 0)
+      @employee_discount = employee_discount
+    end
   end
 
-  def discount
-    # payment = self.new(total)
-    # payment.total - (payment.total * employee_discount)
-  end
+
 end
