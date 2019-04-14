@@ -5,7 +5,8 @@ class CashRegister
     @total = total
   end
 
-  def discount(employee_discount)
-    self.total - (self.total * employee_discount)
+  def discount(total, employee_discount)
+    payment = self.new(total)
+    payment.total - (payment.total * employee_discount)
   end
 end
