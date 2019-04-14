@@ -7,7 +7,7 @@ class CashRegister
   end
 
   def discount
-
+    @employee_discount
   end
 
 end
